@@ -1,0 +1,83 @@
+.my-card-container {
+	background-color: #343a40;
+}
+
+.my-card-image-container {
+	padding:5px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-color: white;
+}
+
+.my-card-image {
+	background-color: #454c52;
+	padding: 10px;
+}
+
+.my-card-title {
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.my-card-text {
+	font-size: 18px;
+	text-align:left;
+	margin-left: 20px;
+}
+
+.container {
+	max-width: none;
+}
+
+.form-item-label {
+	font-size: 12px;
+}
+
+.col {
+	padding-left: 0px;
+}
+
+form {
+	background-color: #343a40;
+	padding: 13px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: white;
+}
+
+.characters {
+	margin: 0 0 40px 15px;
+}
+
+.character-img {
+	margin: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #454c52;
+}
+
+.character-img-selected {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #ffc107;
+}
+
+.popup-visible {
+	width: 100%;
+  height: 65px;
+  position: absolute;
+  top: 0;
+  left: 0;
+	z-index: 9;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.popup-not-visible {
+	display: none;
+}
